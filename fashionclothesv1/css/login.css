@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+  }
+  
+  .container {
+    width: 300px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.9); /* Gris con 50% de opacidad */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+  }
+  .lado{
+    width: 300px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.6); /* Gris con 50% de opacidad */
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+  }
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .container input[type="email"],
+  .container input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+   button {
+    width: 100%;
+    background-color: #cab602;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #dbc923;
+  }
+  
+  .container a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #007BFF;
+    margin-top: 8px;
+  }
+  
+  .container a:hover {
+    text-decoration: underline;
+  }
+  
+  h2{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+ 
+.contraolvidada{
+  font-size: 17px;
+  text-decoration: none;
+}
+
+button[type="submit"]{
+  font-size: 15px;
+  font-family: cursive;
+}
+.or{
+  color: rgb(97, 97, 97);
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+.orc{
+  margin-left: 134px;
+}
+.google{
+  background-color: white;
+  margin-top: -10px;
+}
+.googleimg{
+  width: 15px;
+  margin-left:-50px;
+}
+.texto_boton_google{
+  margin-left: 20px;
+}
+.google:hover{
+  background-color: #ffebeb;
+}
+.inicioyregistro{
+  display: flex; 
+  justify-content: space-between;
+ 
+}
+.inicio{
+  background-color: #cab602;
+  border-radius: 50px;
+  width: 50%;
+}
+.registro{
+  background-color: white;
+  color: black;
+  border-radius: 50px; /* Esto creará un círculo si el ancho y la altura son iguales */
+  width: 50%; /* Asegúrate de que esta sea la mitad de la altura para mantener la proporción */
+  height: 50%; /* Ajusta esto según sea necesario para mantener la proporción */
+  border: 1px solid black; /* Agrega un borde negro de 1px de grosor */
+}
+.todo{
+  width: 50%;
+  height: 70%;
+ 
+  position: absolute;
+  display: flex;
+  border-style: double;
+  border-color: gold;
+}
+.bienvenida{
+  width: 50%;
+  position: relative;
+  height: 100%;
+ 
+}
+.bienvenida_texto{
+  text-align: center;
+  font-size: 50px;
+  font-family:cursive;
+  font-weight: 100;
+}
+.linea_dorada{
+  width: 50%;
+  height: 1%;
+  background-color: gold;
+  border-radius: 30%;
+  margin-left: 60px;
+}
+.texto_bienvenida{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family:cursive;
+}

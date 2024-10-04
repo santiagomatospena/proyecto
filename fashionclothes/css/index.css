@@ -1,0 +1,72 @@
+/* Estilos base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 7rem;
+  height: 5rem;
+}
+
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.links li {
+  margin-left: 20px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.links a:hover {
+  color: #ff6347;
+}
+.tlogo{
+  font-size: 330%;
+}
+
+.iconos{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+
+}
+.cajausuario{
+  width: 32px;
+  height: 32px;
+  position: relative;
+  margin-left:80.5rem;
+  margin-top: -35px;
+}
+.cajainfo{
+  width: 35px;
+  height: 35px;
+  margin-left: 73.5rem;
+  margin-top: -40.5px;
+  position: relative;
+}
+.cajacompras{
+  position: relative;
+  width: 38px;
+  height: 38px;
+  margin-left:77rem;
+  margin-top: 30px;
+}

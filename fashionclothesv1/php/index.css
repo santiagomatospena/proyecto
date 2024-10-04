@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 80px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%; /* Asegura que nav ocupe solo el ancho necesario */
+}
+
+.logo {
+  width: 7rem;
+  height: 5rem;
+  position: relative;
+  top: 5px;
+}
+
+.links {
+  background-color: #81383800;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.links li {
+  margin-left: 5%;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.links a:hover,
+.links p:hover {
+  color: #ff6347;
+}
+
+.tlogo {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.menus {
+  margin-left: 0; /* Ajustado para evitar desplazamiento */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.cajausuario {
+  width: 40px;
+  height: 32px;
+  margin-top: 80px;
+  margin-left: 20px;
+  position: relative;
+  left: 35%;
+}
+
+.cajainfo {
+  width: 40px;
+  height: 35px;
+  margin-top: 50px;
+  margin-left: 40px;
+  position: relative;
+  left: 34%;
+}
+
+.cajacompras {
+  width: 40px;
+  height: 38px;
+  margin-top: 50px;
+  position: relative;
+  top: 2px;
+  left: 32%;
+}
+
+.tlogo {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.inicio {
+  width: 100%; /* Cambiado a 100% para ocupar todo el ancho disponible */
+  height: auto; /* Cambiado a auto para mantener la proporción */
+  margin-top: 0; /* Eliminado el margen para evitar desplazamientos innecesarios */
+}
+
+
+/* Ajustes generales */
+.cajausuario,.cajainfo,.cajacompras {
+  margin-top: 52px; /* Reducido o eliminado */
+  position: relative; /* Cambiado a static para evitar problemas de superposición */
+  left: 25%;
+}
+
+/* Media Query para pantallas menores a 1024px (laptops) */
+@media (max-width: 1024px) {
+  nav {
+    width: 100%; /* Ajustado para pantallas más pequeñas */
+  }
+
+ .logo {
+    width: 6rem;
+    height: 4rem;
+  }
+
+ .menus {
+    margin-left: 0; /* Corrección aquí, movido fuera de la media query incorrecta */
+  }
+}
+
+/* Ajustes específicos para pantallas más pequeñas */
+@media (max-width: 768px) {
+.cajausuario,.cajainfo,.cajacompras {
+    width: 100%; /* Asegura que ocupen todo el ancho disponible */
+  }
+}
+
+/* Asegúrate de que el ancho del <nav> sea flexible */
+nav {
+  width: 100%; /* Ajustado para adaptarse al contenido y al tamaño de la pantalla */
+  max-height: 80px; /* Opcional: Limita la altura máxima para mantener un diseño coherente */
+}
+
+/* Media Query para pantallas menores a 480px (móviles) */
+@media (max-width: 480px) {
+.links {
+    flex-direction: column;
+  }
+.links li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+.links a {
+    font-size: 16px;
+  }
+}
